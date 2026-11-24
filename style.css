@@ -1,0 +1,45 @@
+* {
+    margin: 200;
+    padding: 200; 
+    box-sizing: border-box; 
+}
+
+@font-face {
+    font-family: "teacup";
+    src: url("teacup.otf") format("opentype");
+}
+
+body{
+    background-color: white; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    text-align: center; 
+    font-family: teacup; 
+    font-size: 30px; 
+}
+
+h1{
+    font-size: 35px; 
+    font-family: teacup; 
+}
+
+.buttons{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    gap: 15px; 
+}
+
+button{
+    font-size: 25px; 
+    font-family: teacup; 
+    background-color: transparent; 
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px 20px; 
+}
